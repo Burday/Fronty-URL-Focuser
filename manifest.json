@@ -1,6 +1,7 @@
 {
 	"manifest_version": 2,
-	"name": "Changed New Tab",
+	"name": "Fronty URL Focuser",
+	"description": "Focuses the URL bar on Fronty, giving it home page behaviour.",
 	"version": "0.1",
 	"chrome_url_overrides": { "newtab": "scripts/tabSwitcher.htm" },
 	"content_scripts": [
