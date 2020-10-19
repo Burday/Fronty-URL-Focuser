@@ -7,6 +7,6 @@ chrome.storage.local.get({ t: null, i: false }, function (localUrl) {
 		location.href = localUrl.t;
 	} else {
 		//changes the tab to the url
-		chrome.tabs.update({ url: localUrl.t });
+		chrome.tabs.update({ url: 'https://fronty-page.netlify.app/' });
 	}
 });
